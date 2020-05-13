@@ -26,7 +26,7 @@
         CsapiComponent.ɵfac = function CsapiComponent_Factory(t) { return new (t || CsapiComponent)(); };
         CsapiComponent.ɵcmp = core.ɵɵdefineComponent({ type: CsapiComponent, selectors: [["gciot-csapi"]], decls: 2, vars: 0, template: function CsapiComponent_Template(rf, ctx) { if (rf & 1) {
                 core.ɵɵelementStart(0, "p");
-                core.ɵɵtext(1, " csapi works! ");
+                core.ɵɵtext(1, " csapi works! or should ");
                 core.ɵɵelementEnd();
             } }, encapsulation: 2 });
         return CsapiComponent;
@@ -35,7 +35,7 @@
             type: core.Component,
             args: [{
                     selector: 'gciot-csapi',
-                    template: "\n    <p>\n      csapi works!\n    </p>\n  ",
+                    template: "\n    <p>\n      csapi works! or should\n    </p>\n  ",
                     styles: []
                 }]
         }], function () { return []; }, null); })();
