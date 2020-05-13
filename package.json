@@ -1,6 +1,6 @@
 {
   "name": "@gci/csapi",
-  "version": "1.0.0",
+  "version": "0.0.0-semantically-released",
   "peerDependencies": {
     "@angular/common": "^9.1.6",
     "@angular/core": "^9.1.6",
