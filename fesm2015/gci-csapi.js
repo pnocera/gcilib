@@ -20,7 +20,7 @@ class CsapiComponent {
 CsapiComponent.ɵfac = function CsapiComponent_Factory(t) { return new (t || CsapiComponent)(); };
 CsapiComponent.ɵcmp = ɵɵdefineComponent({ type: CsapiComponent, selectors: [["gciot-csapi"]], decls: 2, vars: 0, template: function CsapiComponent_Template(rf, ctx) { if (rf & 1) {
         ɵɵelementStart(0, "p");
-        ɵɵtext(1, " csapi works! or should ");
+        ɵɵtext(1, " csapi works! or should at least ");
         ɵɵelementEnd();
     } }, encapsulation: 2 });
 /*@__PURE__*/ (function () { ɵsetClassMetadata(CsapiComponent, [{
@@ -29,7 +29,7 @@ CsapiComponent.ɵcmp = ɵɵdefineComponent({ type: CsapiComponent, selectors: [[
                 selector: 'gciot-csapi',
                 template: `
     <p>
-      csapi works! or should
+      csapi works! or should at least
     </p>
   `,
                 styles: []
