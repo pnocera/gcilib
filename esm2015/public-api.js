@@ -1,0 +1,7 @@
+/*
+ * Public API Surface of csapi
+ */
+export * from './lib/csapi.service';
+export * from './lib/csapi.component';
+export * from './lib/csapi.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL0BnY2kvY3NhcGkvIiwic291cmNlcyI6WyJwdWJsaWMtYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztHQUVHO0FBRUgsY0FBYyxxQkFBcUIsQ0FBQztBQUNwQyxjQUFjLHVCQUF1QixDQUFDO0FBQ3RDLGNBQWMsb0JBQW9CLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIGNzYXBpXG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9saWIvY3NhcGkuc2VydmljZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9jc2FwaS5jb21wb25lbnQnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvY3NhcGkubW9kdWxlJztcbiJdfQ==

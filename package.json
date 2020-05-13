@@ -1,0 +1,22 @@
+{
+  "name": "@gci/csapi",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^9.1.6",
+    "@angular/core": "^9.1.6",
+    "@angular/http": "^9.1.6",
+    "tslib": "^1.10.0"
+  },
+  "main": "bundles/gci-csapi.umd.js",
+  "module": "fesm5/gci-csapi.js",
+  "es2015": "fesm2015/gci-csapi.js",
+  "esm5": "esm5/gci-csapi.js",
+  "esm2015": "esm2015/gci-csapi.js",
+  "fesm5": "fesm5/gci-csapi.js",
+  "fesm2015": "fesm2015/gci-csapi.js",
+  "typings": "gci-csapi.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy. This is not allowed.\\nPlease delete and rebuild the package, without compiling with Ivy, before attempting to publish.\\n')\" && exit 1"
+  }
+}
