@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'gciot-csapi',
   template: `
     <p>
-      csapi works! or should
+      csapi works! or should at least
     </p>
   `,
   styles: [
